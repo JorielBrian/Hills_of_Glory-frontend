@@ -1,8 +1,0 @@
-{
-  "/page": "app/page.js",
-  "/register/page": "app/register/page.js",
-  "/services/page": "app/services/page.js",
-  "/about/page": "app/about/page.js",
-  "/plan-your-visit/page": "app/plan-your-visit/page.js",
-  "/sermons/page": "app/sermons/page.js"
-}
