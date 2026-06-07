@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 
 export function SiteShell({ children }: { children: React.ReactNode }) {
@@ -6,7 +7,7 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
       <header className="bg-black/90 shadow-sm border-b border-zinc-900">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
           <Link href="/" className="flex items-center gap-1 text-xl font-semibold text-slate-900">
-            <img src="hog_logo.png" alt="Hills of Glory Logo" className='size-10' />
+            <Image src="/hog_logo.png" alt="Hills of Glory Logo" width={40} height={40} className="h-10 w-10" />
             <h1 className="text-[#fdc53a] content-center px-1">Hills of Glory</h1>
             <h1 className="text-white content-center px-1">Mabalacat</h1>
           </Link>
@@ -30,7 +31,7 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
           <div className="flex flex-col gap-3 sm:flex-row sm:justify-between">
             <div>
               <span className="flex items-center gap-1">
-                <img src="hog_logo.png" alt="Hills of Glory Logo" className='size-10' />
+                <Image src="/hog_logo.png" alt="Hills of Glory Logo" width={40} height={40} className="h-10 w-10" />
                 <h1 className="text-[#fdc53a] content-center px-1">Hills of Glory</h1>
                 <h1 className="text-white content-center px-1">Mabalacat</h1>
                 <p className="text-sm text-slate-400">A welcoming home for spiritual growth, service, and connection.</p>
