@@ -1,1 +1,10 @@
 .next
+node_modules
+.pnpm
+.pnpm-store
+*.env
+*.local
+.DS_Store
+
+# pnpm
+node_modules/.modules.yaml
