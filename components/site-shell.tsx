@@ -11,7 +11,7 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
             <h1 className="text-[#fdc53a] content-center px-1">Hills of Glory</h1>
             <h1 className="text-white content-center px-1">Mabalacat</h1>
           </Link>
-          <nav className="flex gap-4 text-sm text-slate-200">
+          <nav className="flex gap-2 sm:gap-4 text-sm text-slate-200">
             <Link href="/about">About</Link>
             <Link href="/services">Services</Link>
             <Link href="/ministries">Ministries</Link>
@@ -28,12 +28,14 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
       <main className="flex-1">{children}</main>
       <footer className="bg-slate-950 text-slate-100">
         <div className="mx-auto max-w-7xl px-6 py-8">
-          <div className="flex flex-col gap-3 sm:flex-row sm:justify-between">
+          <div className="flex flex-col gap-3 lg:flex-row sm:justify-between">
             <div>
-              <span className="flex items-center gap-1">
-                <Image src="/hog_logo.png" alt="Hills of Glory Logo" width={40} height={40} className="h-10 w-10" />
-                <h1 className="text-[#fdc53a] content-center px-1">Hills of Glory</h1>
-                <h1 className="text-white content-center px-1">Mabalacat</h1>
+              <span className="items-center gap-1">
+                <div  className="flex items-center gap-1 text-2xl font-semibold">
+                  <Image src="/hog_logo.png" alt="Hills of Glory Logo" width={40} height={40} className="h-10 w-10" />
+                  <h1 className="text-[#fdc53a] content-center px-1">Hills of Glory</h1>
+                  <h1 className="text-white content-center px-1">Mabalacat</h1>
+                </div>
                 <p className="text-sm text-slate-400">A welcoming home for spiritual growth, service, and connection.</p>
               </span>
             </div>
