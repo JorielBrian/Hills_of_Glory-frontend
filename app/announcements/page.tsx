@@ -1,16 +1,17 @@
+import HeroSection from '@/components/Root/hero-section';
 import { SiteShell } from '@/components/site-shell';
 
 export default function AnnouncementsPage() {
   return (
     <SiteShell>
-      <section className="bg-white py-20">
+      <HeroSection>
         <div className="mx-auto max-w-6xl px-6 text-center">
           <h1 className="text-4xl font-semibold">Announcements</h1>
-          <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-slate-700">
+          <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-slate-300">
             Stay updated with the latest news, worship updates, and ministry invitations from Hills of Glory.
           </p>
         </div>
-      </section>
+      </HeroSection>
       <section className="mx-auto max-w-6xl px-6 py-16 space-y-6">
         <article className="rounded-3xl border border-slate-200 bg-slate-50 p-8 shadow-sm">
           <h2 className="text-2xl font-semibold">Community Gathering</h2>

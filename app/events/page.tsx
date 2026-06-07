@@ -1,16 +1,17 @@
+import HeroSection from '@/components/Root/hero-section';
 import { SiteShell } from '@/components/site-shell';
 
 export default function EventsPage() {
   return (
     <SiteShell>
-      <section className="bg-slate-950 text-white py-20">
+      <HeroSection>
         <div className="mx-auto max-w-6xl px-6 text-center">
           <h1 className="text-4xl font-semibold">Events</h1>
           <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-slate-200">
             Engage with community gatherings, training nights, prayer encounters, and special events designed for everyone.
           </p>
         </div>
-      </section>
+      </HeroSection>
       <section className="mx-auto max-w-6xl px-6 py-16 space-y-8">
         <article className="rounded-3xl bg-white p-8 shadow-sm">
           <h2 className="text-2xl font-semibold">Sunday Service</h2>

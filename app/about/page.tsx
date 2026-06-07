@@ -1,10 +1,11 @@
+import HeroSection from '@/components/Root/hero-section';
 import { SiteShell } from '@/components/site-shell';
 
 export default function AboutPage() {
   return (
     <SiteShell>
-      <section className="bg-slate-950 text-white py-20">
-        <div className="mx-auto max-w-6xl px-6">
+      <HeroSection>
+        <div className="mx-auto max-w-6xl">
           <h1 className="text-4xl font-semibold">About Hills of Glory</h1>
           <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-200">
             Hills of Glory is a church rooted in warmth, creativity, and genuine spiritual growth. We value accessible worship,
@@ -15,7 +16,7 @@ export default function AboutPage() {
             Every gathering is crafted to help visitors feel welcome, connected, and encouraged.
           </p>
         </div>
-      </section>
+      </HeroSection>
       <section className="mx-auto max-w-6xl px-6 py-16">
         <div className="grid gap-10 lg:grid-cols-2">
           <div>

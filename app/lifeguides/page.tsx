@@ -1,16 +1,17 @@
+import HeroSection from '@/components/Root/hero-section';
 import { SiteShell } from '@/components/site-shell';
 
 export default function LifeguidesPage() {
   return (
     <SiteShell>
-      <section className="bg-white py-20">
+      <HeroSection>
         <div className="mx-auto max-w-6xl px-6 text-center">
           <h1 className="text-4xl font-semibold">Lifeguides</h1>
-          <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-slate-700">
+          <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-slate-300">
             Lifeguides are small groups built to help you grow in faith, build friendships, and discover life together.
           </p>
         </div>
-      </section>
+      </HeroSection>
       <section className="mx-auto max-w-6xl px-6 py-16 space-y-8">
         <article className="rounded-3xl bg-slate-50 p-8 shadow-sm">
           <h2 className="text-2xl font-semibold">Community Groups</h2>

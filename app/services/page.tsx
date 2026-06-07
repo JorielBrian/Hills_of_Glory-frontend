@@ -1,9 +1,10 @@
+import HeroSection from '@/components/Root/hero-section';
 import { SiteShell } from '@/components/site-shell';
 
 export default function ServicesPage() {
   return (
     <SiteShell>
-      <section className="bg-cyan-600 text-white py-20">
+      <HeroSection>
         <div className="mx-auto max-w-6xl px-6 text-center">
           <h1 className="text-4xl font-semibold">Services</h1>
           <p className="mx-auto mt-6 max-w-3xl text-lg leading-8">
@@ -11,7 +12,7 @@ export default function ServicesPage() {
             Whether you are joining us for the first time or returning as a regular, you’ll find an environment that feels respectful and inspiring.
           </p>
         </div>
-      </section>
+      </HeroSection>
       <section className="mx-auto max-w-6xl px-6 py-16">
         <div className="grid gap-8 lg:grid-cols-3">
           <article className="rounded-3xl bg-white p-8 shadow-sm">

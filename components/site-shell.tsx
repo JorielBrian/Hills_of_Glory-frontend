@@ -5,9 +5,9 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
   return (
     <div className="min-h-screen flex flex-col">
       <header className="bg-black/90 shadow-sm border-b border-zinc-900">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-          <Link href="/" className="flex items-center gap-1 text-xl font-semibold text-slate-900">
-            <Image src="/hog_logo.png" alt="Hills of Glory Logo" width={40} height={40} className="h-10 w-10" />
+        <div className="mx-auto flex flex-col lg:flex-row max-w-7xl items-center justify-between px-6 py-4">
+          <Link className="text_logo flex text-xl 2xl:text-3xl" href="/">
+            <Image width={50} height={50} src="/hog_logo.png" alt="logo" className="size-10 2xl:size-15" />
             <h1 className="text-[#fdc53a] content-center px-1">Hills of Glory</h1>
             <h1 className="text-white content-center px-1">Mabalacat</h1>
           </Link>
@@ -19,10 +19,10 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
             <Link href="/sermons">Sermons</Link>
             <Link href="/announcements">Announcements</Link>
           </nav>
-          <div className="flex gap-3 text-sm">
+          {/* <div className="flex gap-3 text-sm">
             <Link href="/login" className="rounded-full bg-emerald-800 px-4 py-2 text-white">Login</Link>
             <Link href="/register" className="rounded-full border border-emerald-600 px-4 py-2 text-emerald-600">Register</Link>
-          </div>
+          </div> */}
         </div>
       </header>
       <main className="flex-1">{children}</main>
