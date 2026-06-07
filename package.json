@@ -1,0 +1,28 @@
+{
+  "name": "hills-of-glory-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@tailwindcss/forms": "^0.5.4",
+    "@tailwindcss/typography": "^0.5.9",
+    "@types/node": "^20.0.0",
+    "autoprefixer": "^10.4.20",
+    "axios": "^1.6.0",
+    "framer-motion": "^11.0.0",
+    "next": "^15.2.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "shadcn-ui": "^0.4.0",
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5.6.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.17"
+  }
+}
