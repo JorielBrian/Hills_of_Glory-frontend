@@ -5,7 +5,7 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
   return (
     <div className="min-h-screen flex flex-col">
       <header className="bg-black/90 shadow-sm border-b border-zinc-900">
-        <div className="mx-auto flex flex-col lg:flex-row max-w-7xl items-center justify-between px-6 py-4">
+        <div className="mx-auto flex flex-col lg:flex-row max-w-8xl items-center justify-between px-20 py-4">
           <Link className="text_logo flex text-xl 2xl:text-3xl" href="/">
             <Image width={50} height={50} src="/hog_logo.png" alt="logo" className="size-10 2xl:size-15" />
             <h1 className="text-[#fdc53a] content-center px-1">Hills of Glory</h1>
