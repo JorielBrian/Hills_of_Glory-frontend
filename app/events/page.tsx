@@ -18,12 +18,12 @@ export default function EventsPage() {
           <p className="mt-4 text-slate-700">A weekly worship gathering with high-quality music, prayer, and inspiring teaching.</p>
         </article>
         <article className="rounded-3xl bg-white p-8 shadow-sm">
-          <h2 className="text-2xl font-semibold">Prayer Encounter</h2>
-          <p className="mt-4 text-slate-700">A focused time of prayer and listening that supports personal renewal.</p>
-        </article>
-        <article className="rounded-3xl bg-white p-8 shadow-sm">
           <h2 className="text-2xl font-semibold">Protege</h2>
           <p className="mt-4 text-slate-700">A mentoring event for young leaders to grow in faith, character, and mission.</p>
+        </article>
+        <article className="rounded-3xl bg-white p-8 shadow-sm">
+          <h2 className="text-2xl font-semibold">Prayer Encounter</h2>
+          <p className="mt-4 text-slate-700">A focused time of prayer and listening that supports personal renewal.</p>
         </article>
       </section>
     </SiteShell>

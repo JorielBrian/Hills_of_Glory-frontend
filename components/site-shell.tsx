@@ -40,7 +40,7 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
               </span>
             </div>
             <div className="text-sm text-slate-400">
-              <p> L-234F, Mc Arthur Highway, Mabiga, Mabalacat City, Pampanga, Mabalacat, Philippines, 2010</p>
+              <p>L-234F, Mc Arthur Highway, Mabiga, Mabalacat City, Pampanga, Mabalacat, Philippines, 2010</p>
               <p>Service Time: Sundays at 10:00am</p>
             </div>
           </div>

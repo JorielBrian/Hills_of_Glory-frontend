@@ -18,7 +18,7 @@ export default function ServicesPage() {
           <article className="rounded-3xl bg-white p-8 shadow-sm">
             <h2 className="text-2xl font-semibold">Sunday Gathering</h2>
             <p className="mt-4 text-slate-600">
-              Join us on Sundays at [Service Time] at [Location] for worship, teaching, and a warm community welcome.
+              Join us on Sundays at 8:00 AM and 10:45 AM for worship, teaching, and a warm community welcome.
             </p>
           </article>
           <article className="rounded-3xl bg-white p-8 shadow-sm">
