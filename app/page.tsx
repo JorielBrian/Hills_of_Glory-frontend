@@ -5,10 +5,10 @@ export default function HomePage() {
   return (
     <SiteShell>
       <HeroSection>
-        <div className="mx-auto max-w-6xl px-6 text-center">
-          <p className="text-sm uppercase tracking-[0.3em] text-amber-300">Welcome to Hills of Glory</p>
-          <h1 className="mt-6 text-5xl font-semibold tracking-tight">A modern church experience that invites everyone home.</h1>
-          <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-slate-200">
+        <div className="mx-auto max-w-8xl px-6 text-center">
+          <p className="text-lg font-semibold uppercase tracking-[0.3em] text-amber-300">Welcome to Hills of Glory</p>
+          <h1 className="mt-6 text-6xl font-semibold tracking-tight">A modern church experience that invites everyone home.</h1>
+          <p className="mx-auto mt-6 max-w-6xl text-xl leading-8 text-slate-200">
             We create warm spaces for people to encounter faith, form meaningful relationships, and grow in purpose.
             Join us at our services, discover ministries, and connect with others in Hills of Glory.
           </p>
